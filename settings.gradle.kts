@@ -3,6 +3,19 @@ pluginManagement {
         maven { url = uri("https://repo.spring.io/milestone") }
         gradlePluginPortal()
     }
+
+    /*resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == "org.springframework.boot") {
+                useVersion("3.0.0-M2")
+            }
+        }
+    }*/
 }
 
-rootProject.name = "jiuhaox-spring-boot-starter"
+
+
+rootProject.name = "jiuhaox-common"
+include("jiuhaox-common-ddd")
+include("jiuhaox-common-boot")
+include("jiuhaox-common-dependencies")
