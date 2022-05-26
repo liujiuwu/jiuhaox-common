@@ -1,6 +1,7 @@
 package com.jiuhaox.boot.jackson;
 
-import com.jiuhaox.boot.enums.EnumCodeName;
+import com.jiuhaox.boot.core.enums.EnumCodeName;
+import com.jiuhaox.boot.core.jackson.EnumCodeNameSerializer;
 import jakarta.annotation.Resource;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

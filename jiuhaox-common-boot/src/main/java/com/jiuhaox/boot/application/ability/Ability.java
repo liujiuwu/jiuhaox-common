@@ -1,6 +1,6 @@
 package com.jiuhaox.boot.application.ability;
 
-import com.jiuhaox.boot.model.resp.Resp;
+import com.jiuhaox.boot.application.model.resp.Resp;
 
 public interface Ability<T, R> {
     /**

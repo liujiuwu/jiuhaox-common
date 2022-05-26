@@ -1,5 +1,7 @@
 package com.jiuhaox.boot.exceptions;
 
+import com.jiuhaox.boot.core.exceptions.AppErrorCode;
+import com.jiuhaox.boot.core.exceptions.AppException;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;

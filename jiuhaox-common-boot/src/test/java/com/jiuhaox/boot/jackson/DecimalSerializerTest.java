@@ -1,7 +1,7 @@
 package com.jiuhaox.boot.jackson;
 
-import com.jiuhaox.boot.jackson.Decimal;
-import com.jiuhaox.boot.jackson.DecimalSerializer;
+import com.jiuhaox.boot.core.jackson.Decimal;
+import com.jiuhaox.boot.core.jackson.DecimalSerializer;
 import jakarta.annotation.Resource;
 import lombok.Builder;
 import lombok.SneakyThrows;
