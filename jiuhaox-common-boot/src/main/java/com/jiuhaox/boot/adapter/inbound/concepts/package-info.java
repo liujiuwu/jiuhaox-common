@@ -1,0 +1,1 @@
+package com.jiuhaox.boot.adapter.inbound.concepts;
