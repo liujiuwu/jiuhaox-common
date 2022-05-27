@@ -1,4 +1,6 @@
 package com.jiuhaox.ddd.domain.concepts;
 
-public interface ValueObject {
+import java.io.Serializable;
+
+public interface ValueObject extends Serializable {
 }

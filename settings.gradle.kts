@@ -18,4 +18,5 @@ pluginManagement {
 rootProject.name = "jiuhaox-common"
 include("jiuhaox-common-ddd")
 include("jiuhaox-common-boot")
+include("jiuhaox-common-test")
 include("jiuhaox-common-dependencies")

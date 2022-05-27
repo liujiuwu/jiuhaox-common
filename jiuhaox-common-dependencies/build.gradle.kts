@@ -24,6 +24,7 @@ dependencies {
     constraints {
         api(project(":jiuhaox-common-ddd"))
         api(project(":jiuhaox-common-boot"))
+        api(project(":jiuhaox-common-test"))
 
         api("cn.hutool:hutool-all:5.8.1")
         api("com.alibaba:transmittable-thread-local:2.12.6")

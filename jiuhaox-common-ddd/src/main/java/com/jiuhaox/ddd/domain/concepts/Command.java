@@ -1,5 +1,7 @@
 package com.jiuhaox.ddd.domain.concepts;
 
-public interface Command {
+import java.io.Serializable;
+
+public interface Command extends Serializable {
 
 }
